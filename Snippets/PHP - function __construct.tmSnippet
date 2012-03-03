@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>public function __construct(${1:\$${2:foo}${3: = ${4:null}}}) {
+	${2/.+/$this-&gt;$0 = \$$0;/}$0
+}</string>
+	<key>name</key>
+	<string>function __construct</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>con</string>
+	<key>uuid</key>
+	<string>345EBA59-0CB1-49EA-9940-E4AFDA36DD17</string>
+</dict>
+</plist>
