@@ -9,6 +9,7 @@ The following existing bundles have been overloaded with personal customization 
 required for all the non-customized Commands, Snippets, etc.)
 
 * Apache
+* LESS
 * PHP
 * PHPCodeSniffer
 * PHPDoc
@@ -16,6 +17,8 @@ required for all the non-customized Commands, Snippets, etc.)
 
 ## Prerequisites
 
+* [Less](http://lesscss.org/#-server-side-usage)
+* [LESS Bundle](https://github.com/appden/less.tmbundle)
 * [PHPUnit 3.6](http://www.phpunit.de/manual/3.6/en/installation.html)
 * [PHP Code Sniffer 1.3.2](http://pear.php.net/package/PHP_CodeSniffer/redirected)
 
@@ -40,6 +43,15 @@ You will also need to add the following to your `~/.tm_properties` file:
     TM_PHPUNIT = '/path/to/phpunit'
     TM_PHPUNIT_OPTIONS = '--extra-options --are-set=here'
     TM_PHPUNIT_TESTSPATH = '$CWD/Tests'
+
+## Known Issues
+
+### env: node: No such file or directory
+
+TextMate might not find `node` when trying to use LESS. In that case, add a `PATH` variable to your `~/.tm_properties` file.
+
+    $ echo "PATH = '$PATH'" >> ~/.tm_properties
+
 
 ## Credits
 

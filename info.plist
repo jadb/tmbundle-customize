@@ -12,6 +12,7 @@
 	<dict>
 		<key>items</key>
 		<array>
+      <string>45ABC129-3A80-44EF-A4FC-52C78474BB3A</string>
       <string>45ABC130-3A80-44EF-A4FC-52C78474BB3A</string>
 			<string>45ABC131-3A80-44EF-A4FC-52C78474BB3A</string>
 			<string>45ABC132-3A80-44EF-A4FC-52C78474BB3A</string>
@@ -20,7 +21,7 @@
 		</array>
 		<key>submenus</key>
 		<dict>
-      <key>45ABC130-3A80-44EF-A4FC-52C78474BB3A</key>
+      <key>45ABC129-3A80-44EF-A4FC-52C78474BB3A</key>
       <dict>
           <key>items</key>
           <array>
@@ -28,6 +29,16 @@
           </array>
           <key>name</key>
           <string>Apache</string>
+      </dict>
+      <key>45ABC130-3A80-44EF-A4FC-52C78474BB3A</key>
+      <dict>
+          <key>items</key>
+          <array>
+            <string>1E6E7B98-8AC8-4C3B-9146-8CE38DA2BC0D</string>
+            <string>F46258A8-09AC-408F-B5AA-9892C5C3DE74</string>
+          </array>
+          <key>name</key>
+          <string>LESS</string>
       </dict>
       <key>45ABC131-3A80-44EF-A4FC-52C78474BB3A</key>
       <dict>

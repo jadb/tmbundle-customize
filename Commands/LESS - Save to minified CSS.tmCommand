@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+file = ENV["TM_FILEPATH"]
+name = ENV["TM_FILENAME"].chomp(File.extname(ENV["TM_FILENAME"]))
+dir = File.dirname(ENV["TM_FILEPATH"]).chomp("less")
+system("lessc --verbose -x \"#{file}\" \"#{dir}/#{name}.min.css\"")</string>
+	<key>input</key>
+	<string>document</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>keyEquivalent</key>
+	<string>@s</string>
+	<key>name</key>
+	<string>LESS - Save to minified CSS</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
+	<string>toolTip</string>
+	<key>scope</key>
+	<string>source.css.less</string>
+	<key>uuid</key>
+	<string>F46258A8-09AC-408F-B5AA-9892C5C3DE74</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>
