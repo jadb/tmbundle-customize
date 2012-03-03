@@ -315,7 +315,7 @@ if (file_exists($phpcsPath) === FALSE) {
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>@S</string>
+	<string>^@s</string>
 	<key>name</key>
 	<string>Run sniffer ...</string>
 	<key>outputCaret</key>
