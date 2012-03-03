@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * Test ${1:ClassName}.
+ *
+ * @package ${3:Tests.}${4:Path.To.Test}${5:
+ * @group ${6:group_name}}
+ */
+class ${1:ClassName}Test extends ${2:PHPUnit_Framework_TestCase} {
+  /**
+   * Sets test up.
+   *
+   * @return void
+   */
+  public function setUp() {
+    ${10:${11:\$this-&gt;${1:ClassName}} = new ${1:ClassName}(${12:\$args});}
+  }
+  /**
+   * Tears test down.
+   *
+   * @return void
+   */
+  public function tearDown() {
+    ${15:unset(${16:\$this-&gt;${1:ClassName}});}
+  }
+	$0
+}</string>
+	<key>name</key>
+	<string>Test Case</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>testc</string>
+	<key>uuid</key>
+	<string>F0870DF4-7101-4BE8-A0E9-32701C3489AC</string>
+</dict>
+</plist>

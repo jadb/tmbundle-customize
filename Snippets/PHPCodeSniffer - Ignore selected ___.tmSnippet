@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${TM_SELECTED_TEXT/([\t ]*).*/$1/m}// @codingStandardsIgnoreStart
+	${3:${TM_SELECTED_TEXT/(\A.*)|(.+)|\n\z/(?1:$0:(?2:\t$0))/g}}
+${TM_SELECTED_TEXT/([\t ]*).*/$1/m}// @codingStandardsIgnoreEnd
+$0</string>
+	<key>keyEquivalent</key>
+	<string>@I</string>
+	<key>name</key>
+	<string>Ignore selected ...</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>uuid</key>
+	<string>DF91258D-1130-4B68-9C2A-77DC921E5F0B</string>
+</dict>
+</plist>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * Tests ${1:${2:ClassName}${3:::${4:functionOrMethodName}}}.
+ *
+ * @group ${5:group_name}${6:
+ * @group ${7:group_name}}
+ */
+public function test${10:FunctionOrMethodName}() {
+  $0
+}</string>
+	<key>name</key>
+	<string>Test</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>test</string>
+	<key>uuid</key>
+	<string>60F58CC1-5BFA-4565-ADCE-C4F79D1306B3</string>
+</dict>
+</plist>
